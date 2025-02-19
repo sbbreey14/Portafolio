@@ -1,5 +1,5 @@
 .hero-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Creación_de_Adán.jpg");
     color: white;
     padding: 4rem 0;
   }
@@ -31,11 +31,11 @@
   }
   
   .btn-primary {
-    background-color: #667eea;
-    border-color: #667eea;
+    background-color: #222329;
+    border-color: #bcc2da;
   }
   
   .btn-primary:hover {
-    background-color: #764ba2;
+    background-color: #807887;
     border-color: #764ba2;
   }
