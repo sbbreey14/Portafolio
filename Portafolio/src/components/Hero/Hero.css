@@ -1,10 +1,11 @@
 .hero {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
   background: linear-gradient(135deg, #0c1426 0%, #1a202c 100%);
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .hero::before {
@@ -241,8 +242,17 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    padding-top: 2rem;
+  }
+  
   .hero-container {
     padding: 1rem;
+    padding-top: 2rem;
+  }
+  
+  .hero-content {
+    min-height: 70vh;
   }
   
   .hero-title {
@@ -256,5 +266,33 @@
   .btn {
     padding: 0.8rem 1.5rem;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-top: 3rem;
+  }
+  
+  .hero-container {
+    padding: 0.5rem;
+    padding-top: 3rem;
+  }
+  
+  .hero-title {
+    font-size: 1.8rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+  }
+  
+  .image-container {
+    width: 200px;
+    height: 200px;
   }
 }
