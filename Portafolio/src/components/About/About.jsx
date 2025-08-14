@@ -1,16 +1,26 @@
 import './About.css'
+import { 
+  SiJavascript, 
+  SiReact, 
+  SiNodedotjs, 
+  SiPython, 
+  SiTypescript, 
+  SiCss3, 
+  SiHtml5, 
+  SiMongodb, 
+  SiGit 
+} from 'react-icons/si'
 
 const About = () => {
   const technologies = [
-    { name: 'JavaScript', icon: 'JS', color: '#F7DF1E', textColor: '#000' },
-    { name: 'React', icon: '⚛️', color: '#61DAFB', textColor: '#000' },
-    { name: 'Node.js', icon: 'NODE', color: '#339933', textColor: '#fff' },
-    { name: 'Python', icon: 'PY', color: '#3776AB', textColor: '#fff' },
-    { name: 'TypeScript', icon: 'TS', color: '#3178C6', textColor: '#fff' },
-    { name: 'CSS3', icon: 'CSS', color: '#1572B6', textColor: '#fff' },
-    { name: 'HTML', icon: 'HTML', color: '#b66015ff', textColor: '#fff' },
-    { name: 'MongoDB', icon: 'DB', color: '#47A248', textColor: '#fff' },
-    { name: 'Git', icon: 'GIT', color: '#F05032', textColor: '#fff' },
+    { name: 'JavaScript', icon: <SiJavascript />, color: '#F7DF1E', textColor: '#000' },
+    { name: 'React', icon: <SiReact />, color: '#61DAFB', textColor: '#000' },
+    { name: 'Python', icon: <SiPython />, color: '#3776AB', textColor: '#fff' },
+    { name: 'TypeScript', icon: <SiTypescript />, color: '#3178C6', textColor: '#fff' },
+    { name: 'CSS3', icon: <SiCss3 />, color: '#1572B6', textColor: '#fff' },
+    { name: 'HTML5', icon: <SiHtml5 />, color: '#E34F26', textColor: '#fff' },
+    { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248', textColor: '#fff' },
+    { name: 'Git', icon: <SiGit />, color: '#F05032', textColor: '#fff' },
   ]
 
   return (

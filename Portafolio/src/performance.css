@@ -1,0 +1,62 @@
+/* Optimizaciones de rendimiento para scroll y animaciones */
+
+/* Forzar aceleración de hardware para elementos animados */
+.hero,
+.about,
+.projects,
+.experience,
+.contact {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Optimizar elementos con hover */
+.btn,
+.tech-item,
+.about-card,
+.project-card {
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Optimizar scroll container */
+html {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Reducir motion para usuarios que lo prefieren */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .hero::before {
+    animation: none !important;
+  }
+  
+  .scroll-indicator {
+    animation: none !important;
+  }
+}
+
+/* Optimizar para pantallas de alta densidad */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Optimizar compositing layers */
+.gradient-text,
+.btn-primary,
+.btn-secondary {
+  transform: translateZ(0);
+}

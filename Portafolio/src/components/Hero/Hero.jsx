@@ -10,7 +10,7 @@ const Hero = () => {
               Hola, me llamo <span className="gradient-text">Sebastian Gallardo</span>
             </h1>
             <h2 className="hero-subtitle">Desarrollador Full Stack</h2>
-            <p className="hero-description">
+            <p className="hero-description container">
               Apasionado por crear experiencias digitales y soluciones 
               tecnológicas innovadoras. Especializado en desarrollo web moderno 
               con javaScript,  React y tecnologías emergentes.
@@ -28,17 +28,6 @@ const Hero = () => {
               >
                 Contactar
               </button>
-            </div>
-          </div>
-          
-          <div className="hero-image">
-            <div className="image-container">
-              <img 
-                src="https://via.placeholder.com/300x300/667eea/ffffff?text=Tu+Foto" 
-                alt="Foto de perfil" 
-                className="profile-image"
-              />
-              <div className="image-bg"></div>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ const Experience = () => {
       title: "Desarrollador de Software",
       company: "NeoSoltec",
       period: "Agosto 2021 - Octubre 2021",
-      description: "Desarrollé un prototipo móvil con Flutter para Codelco, optimizando el registro de ingreso de turnos para los trabajadores.",
+      description: "Desarrollé aplicaciones móviles con Ionic, HTML y CSS. Implementé un prototipo en Flutter para el registro de turnos mediante QR, automatizando la selección de controles de seguridad y mejorando la eficiencia en el ingreso de trabajadores.",
       technologies: ["Flutter", "Dart"]
     },
     {
@@ -15,7 +15,7 @@ const Experience = () => {
       title: "Desarrollador FullStack",
       company: "Selyt",
       period: "Octubre 2021 - Enero 2022",
-      description: "Desarrollador web con experiencia en el diseño e implementación de interfaces completas para plataformas web.",
+      description: "Construí interfaces completas para plataformas web usando HTML, CSS, JavaScript, ReactJS, Bootstrap 5 y MongoDB. Transformé requerimientos empresariales en soluciones tecnológicas, optimizando la experiencia de usuario y la gestión de datos",
       technologies: ["React", "MongoDB", "Node.js", "JavaScript", "CSS", "Bootstrap", "Redux"]
     },
     {
@@ -23,7 +23,7 @@ const Experience = () => {
       title: "Desarrollador de Software",
       company: "MineRP",
       period: "Enero 2022 - Sept 2022",
-      description: "Actué como enlace entre las operaciones en Sudáfrica y Chile, facilitando el soporte técnico especializado para servicios mineros desarrollados internamente. Me encargaba del diagnóstico, análisis y resolución de incidencias técnicas, asegurando la continuidad operativa y la satisfacción del cliente",
+      description: "Brindé soporte técnico entre operaciones en Sudáfrica y Chile, diagnosticando y resolviendo incidencias en servicios mineros desarrollados en Python. Mejoré y mantuve aplicaciones críticas, alineando soluciones a las necesidades del cliente.",
       technologies: ["Python", "AutoCAD", "PowerBI"]
     },
     {
@@ -31,7 +31,7 @@ const Experience = () => {
       title: "Ingeniero de Software",
       company: "Epiroc S.A.C",
       period: "Sep 2022 - Marzo 2025",
-      description: "Lideré proyectos de desarrollo y procesamiento de datos en el sector minero, gestionando desde la definición de requerimientos hasta la implementación final. Desarrollé aplicaciones orientadas al sector minero, incluyendo reuniones directas con clientes para recopilar y analizar sus requerimientos funcionales. Estas necesidades fueron traducidas en funcionalidades técnicas que mejoraron la eficiencia operativa de los procesos",
+      description: "Lideré proyectos de digitalización y automatización en minería, desde la recopilación de requerimientos hasta la implementación. Automatizé el procesamiento y validación de grandes volúmenes de datos con Python, optimizando la toma de decisiones y la eficiencia operativa.",
       technologies: ["Python", "JavaScript", "AutoCAD", "PowerBI", "SQl Server Management Studio", "PostreSQl"]
     }
   ]
